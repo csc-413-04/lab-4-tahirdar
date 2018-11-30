@@ -9,8 +9,8 @@ class App extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      color: 'black',
-      banner: 'hello',
+      color: 'green',
+      banner: 'hello World',
       isOpen: false,
     };
     this.buttonHandler = this.buttonHandler.bind(this);
